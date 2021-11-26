@@ -1,7 +1,121 @@
 fileFormatVersion: 2
 guid: 7064bc44c033d304d94c483590dd86c8
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 4196479163315834159
+    second: mario_luigi2_0
+  - first:
+      213: 2297331900203947632
+    second: mario_luigi2_1
+  - first:
+      213: -4788018755868146199
+    second: mario_luigi2_2
+  - first:
+      213: -1537214456431095375
+    second: mario_luigi2_3
+  - first:
+      213: -5771095942086920165
+    second: mario_luigi2_4
+  - first:
+      213: -7549603507194329800
+    second: mario_luigi2_5
+  - first:
+      213: -100646576632350575
+    second: mario_luigi2_6
+  - first:
+      213: -4910987661352668475
+    second: mario_luigi2_7
+  - first:
+      213: 8299961265559433703
+    second: mario_luigi2_8
+  - first:
+      213: 1441049166837195291
+    second: mario_luigi2_9
+  - first:
+      213: -7795874959830160560
+    second: mario_luigi2_10
+  - first:
+      213: 7600765965227435096
+    second: mario_luigi2_11
+  - first:
+      213: -5517451910909654344
+    second: mario_luigi2_12
+  - first:
+      213: 2429922365023375601
+    second: mario_luigi2_13
+  - first:
+      213: -3328399786027756343
+    second: mario_luigi2_14
+  - first:
+      213: 8668924446690182815
+    second: mario_luigi2_15
+  - first:
+      213: -2719710229627797391
+    second: mario_luigi2_16
+  - first:
+      213: 2433941033565844805
+    second: mario_luigi2_17
+  - first:
+      213: 6153331808669283034
+    second: mario_luigi2_18
+  - first:
+      213: -8239898674974205246
+    second: mario_luigi2_19
+  - first:
+      213: -4750581657072708794
+    second: mario_luigi2_20
+  - first:
+      213: 7151722002214370774
+    second: mario_luigi2_21
+  - first:
+      213: 964036381263866712
+    second: mario_luigi2_22
+  - first:
+      213: 7273148866445723188
+    second: mario_luigi2_23
+  - first:
+      213: -2860600953561571254
+    second: mario_luigi2_24
+  - first:
+      213: 1677297910406444554
+    second: mario_luigi2_25
+  - first:
+      213: 5697847940426966371
+    second: mario_luigi2_26
+  - first:
+      213: 5813445299682286033
+    second: mario_luigi2_27
+  - first:
+      213: 6991037886251439150
+    second: mario_luigi2_28
+  - first:
+      213: 6588711012995346635
+    second: mario_luigi2_29
+  - first:
+      213: -5006408716634315248
+    second: mario_luigi2_30
+  - first:
+      213: -3085421843909123223
+    second: mario_luigi2_31
+  - first:
+      213: 4955044911030320242
+    second: mario_luigi2_32
+  - first:
+      213: -7222357688894284118
+    second: mario_luigi2_33
+  - first:
+      213: -6422868893623741009
+    second: mario_luigi2_34
+  - first:
+      213: 1389613280808975620
+    second: mario_luigi2_35
+  - first:
+      213: -1783864764903151298
+    second: mario_luigi2_36
+  - first:
+      213: 5324101142396586376
+    second: mario_luigi2_37
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -89,7 +203,805 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: mario_luigi2_0
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 412
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f2dc4cca093ec3a30800000000000000
+      internalID: 4196479163315834159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_luigi2_1
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 412
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07654d20133c1ef10800000000000000
+      internalID: 2297331900203947632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_luigi2_2
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 412
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e5429e3f4a8d8db0800000000000000
+      internalID: -4788018755868146199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_luigi2_3
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 412
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b154dca897baaae0800000000000000
+      internalID: -1537214456431095375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_luigi2_4
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 412
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b18f53731d2f8efa0800000000000000
+      internalID: -5771095942086920165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_luigi2_5
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 412
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83583a61c9b6a3790800000000000000
+      internalID: -7549603507194329800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_luigi2_6
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 412
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19838f7c87e6a9ef0800000000000000
+      internalID: -100646576632350575
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_luigi2_7
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 412
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c27fb4ddbaa8dbb0800000000000000
+      internalID: -4910987661352668475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_luigi2_8
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 412
+        width: 64
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e1fb23cbc26f2370800000000000000
+      internalID: 8299961265559433703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_luigi2_9
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 276
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b12243d0592aff310800000000000000
+      internalID: 1441049166837195291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_luigi2_10
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 276
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05be5f1470d7fc390800000000000000
+      internalID: -7795874959830160560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_luigi2_11
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 276
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 854a242ff585b7960800000000000000
+      internalID: 7600765965227435096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_luigi2_12
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 276
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ba0ee048b21e63b0800000000000000
+      internalID: -5517451910909654344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_luigi2_13
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 276
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f0def64481d8b120800000000000000
+      internalID: 2429922365023375601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_luigi2_14
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 276
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c4545b77062fc1d0800000000000000
+      internalID: -3328399786027756343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_luigi2_15
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 276
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f960ba5bad43e4870800000000000000
+      internalID: 8668924446690182815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_luigi2_16
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 276
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1700a0fa4f5a14ad0800000000000000
+      internalID: -2719710229627797391
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_luigi2_17
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 276
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54570f5797817c120800000000000000
+      internalID: 2433941033565844805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_luigi2_18
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 140
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad238d0ada6056550800000000000000
+      internalID: 6153331808669283034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_luigi2_19
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 140
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ca53fcdfcff5ad80800000000000000
+      internalID: -8239898674974205246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_luigi2_20
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 140
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 643d1bd072b821eb0800000000000000
+      internalID: -4750581657072708794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_luigi2_21
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 140
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6dd35520545004360800000000000000
+      internalID: 7151722002214370774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_luigi2_22
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 140
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85b29c72bf1f06d00800000000000000
+      internalID: 964036381263866712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_luigi2_23
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 140
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4364807fb5a6fe460800000000000000
+      internalID: 7273148866445723188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_luigi2_24
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 140
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a40a1deb69a1d48d0800000000000000
+      internalID: -2860600953561571254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_luigi2_25
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 139
+        width: 64
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a06f7441095f64710800000000000000
+      internalID: 1677297910406444554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_luigi2_26
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 139
+        width: 64
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36527596382d21f40800000000000000
+      internalID: 5697847940426966371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_luigi2_27
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 4
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d91ab8f2b18da050800000000000000
+      internalID: 5813445299682286033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_luigi2_28
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 4
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e24905ddae7250160800000000000000
+      internalID: 6991037886251439150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_luigi2_29
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 4
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc0ba4102cdcf6b50800000000000000
+      internalID: 6588711012995346635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_luigi2_30
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 4
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 016a79c1cc9a58ab0800000000000000
+      internalID: -5006408716634315248
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_luigi2_31
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 4
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 963e0932e216e25d0800000000000000
+      internalID: -3085421843909123223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_luigi2_32
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 4
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27cb118f71bd3c440800000000000000
+      internalID: 4955044911030320242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_luigi2_33
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 4
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aae15a892f705cb90800000000000000
+      internalID: -7222357688894284118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_luigi2_34
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 4
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa596a465c26dd6a0800000000000000
+      internalID: -6422868893623741009
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_luigi2_35
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 4
+        width: 64
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 40db8c99ae5e84310800000000000000
+      internalID: 1389613280808975620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_luigi2_36
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 514
+        width: 65
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e39ac9892707e37e0800000000000000
+      internalID: -1783864764903151298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mario_luigi2_37
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 243
+        width: 64
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 889ccccd7c103e940800000000000000
+      internalID: 5324101142396586376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
