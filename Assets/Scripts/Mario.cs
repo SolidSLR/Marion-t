@@ -4,11 +4,12 @@ using UnityEngine;
 
 public class Mario : MonoBehaviour
 {
-    private float speed = 5f; 
+    private float speed = 4f; 
+    Animator animator;
     // Start is called before the first frame update
     void Start()
     {
-        
+        animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -16,8 +17,14 @@ public class Mario : MonoBehaviour
     {
         if(Input.GetKey(KeyCode.LeftArrow)){
             transform.Translate(Vector3.left * speed * Time.deltaTime, Space.Self);
+            animator.SetBool("Walking", true);
+            transform.localScale = new Vector3(1,1,1);
         }else if(Input.GetKey(KeyCode.RightArrow)){
             transform.Translate(Vector3.right * speed * Time.deltaTime, Space.Self);
+            animator.SetBool("Walking", true);
+            transform.localScale = new Vector3(-1,1,1);
+        }else {
+            animator.SetBool("Walking", false);
         }
     }
 }
