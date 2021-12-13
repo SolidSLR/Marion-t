@@ -14,25 +14,34 @@ public class Mario : MonoBehaviour
     Animator animator;
     //Controlador del Rigidbody
     private Rigidbody2D rb;
+    //Controlador de colisiones
+    private Collider2D collider;
     //Controlador de la velocidad del salto
     private float jump = 6.5f;
     //Variable para impedir que se acelere hacia ningún lado mientras estás frenando
     private bool stopping = false;
+    //Variable para controlar el inicio del salto y no controlar si toca suelo
+    private bool starJump;
     
     // Start is called before the first frame update
     void Start()
     {
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
+        collider = GetComponent<Collider2D>();
+        //starJump = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        //animator.SetBool("Walking", false);
-
-        animator.SetBool("Jumping", false);
+        if(isGrounded()){
         
+            animator.SetBool("Jumping", false);
+            Debug.Log("Suelo");
+        }else if(animator.GetBool("Jumping")){
+            Debug.Log("En aire");
+        }
         //actualSpeed = speed;
 
         //Comprobamos que Mariont no esté parado, la tecla pulsada y evitamos que se mueva al lado 
@@ -76,11 +85,28 @@ public class Mario : MonoBehaviour
 
         transform.Translate(Vector3.right * actualSpeed * Time.deltaTime, Space.Self);
         
-        /*if (Input.GetKeyDown(KeyCode.UpArrow)){
+        if (Input.GetKeyDown(KeyCode.UpArrow) /*&& (!stopping && (actualSpeed<=0||actualSpeed>=0))*/){
+
             rb.AddForce(Vector2.up*jump, ForceMode2D.Impulse);
             animator.SetBool("Jumping", true);
-        }else {
+            starJump = true;
+            Invoke("endJump",0.05f);
+
+            Debug.Log("Salta");
+        }/*else if(isGrounded()){
             animator.SetBool("Jumping", false);
         }*/
+    }
+
+    private void endJump(){
+        starJump=false;
+    }
+
+    private bool isGrounded(){
+        if(starJump){
+            return false;
+        }else{
+            return collider.IsTouchingLayers();
+        }
     }
 }

@@ -134,7 +134,7 @@ GameObject:
   - component: {fileID: 4856181}
   - component: {fileID: 4856180}
   - component: {fileID: 4856179}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Suelo8
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -241,7 +241,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 14223982}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Plataformas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -281,7 +281,7 @@ GameObject:
   - component: {fileID: 261352907}
   - component: {fileID: 261352906}
   - component: {fileID: 261352905}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Suelo5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -569,7 +569,7 @@ GameObject:
   - component: {fileID: 642584969}
   - component: {fileID: 642584968}
   - component: {fileID: 642584967}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Suelo2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -941,7 +941,7 @@ GameObject:
   - component: {fileID: 1388702838}
   - component: {fileID: 1388702837}
   - component: {fileID: 1388702836}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Suelo3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1050,7 +1050,7 @@ GameObject:
   - component: {fileID: 1458283353}
   - component: {fileID: 1458283352}
   - component: {fileID: 1458283351}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Suelo6
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1159,7 +1159,7 @@ GameObject:
   - component: {fileID: 1474006893}
   - component: {fileID: 1474006892}
   - component: {fileID: 1474006891}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Suelo4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1268,7 +1268,7 @@ GameObject:
   - component: {fileID: 1612061840}
   - component: {fileID: 1612061839}
   - component: {fileID: 1612061838}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Suelo7
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1518,7 +1518,7 @@ GameObject:
   - component: {fileID: 1854566205}
   - component: {fileID: 1854566204}
   - component: {fileID: 1854566203}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: Suelo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
