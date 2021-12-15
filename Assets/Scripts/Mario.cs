@@ -105,8 +105,39 @@ public class Mario : MonoBehaviour
     private bool isGrounded(){
         if(starJump){
             return false;
-        }else{
-            return collider.IsTouchingLayers();
         }
+
+        bool grounded=false;
+
+            LayerMask mask = LayerMask.GetMask("Plataformas");
+
+            ContactFilter2D filtro = new ContactFilter2D();
+
+            filtro.SetLayerMask(mask);
+            //Buscamos los puntos de contacto de Mariont chocando con otro collider
+            ContactPoint2D[] puntosContacto = new ContactPoint2D[5];
+
+
+            /*Si hay contacto, miramos que el punto sea el inferior y no uno de los otros. 
+            Sólo se cancela la animación si el contacto es con la parte inferior. A mayores, 
+            pasamos la máscara Plataformas como parámetro para corregir un bug*/
+            if(collider.IsTouchingLayers(mask)){
+                int numeroPuntos = collider.GetContacts(filtro, puntosContacto);
+                Vector3 contactoLocal = transform.InverseTransformPoint(new Vector3(puntosContacto[0].point.x, puntosContacto[0].point.y, 0));
+                if(numeroPuntos == 1){
+                    //Se comprueba que Mariont toque plataformas con el centro de la parte inferior
+                    if(contactoLocal.y<-0.5f && Mathf.Abs(contactoLocal.x) < 0.02f){
+                        grounded=true;
+                    }
+
+                    Debug.Log("Detección de punto de contacto: "+contactoLocal.y);
+
+            }else if(numeroPuntos > 1){
+                Debug.Log("Detección de puntos de contacto totales: "+contactoLocal);
+            }
+            //grounded=true;
+        }
+
+        return grounded;
     }
 }
