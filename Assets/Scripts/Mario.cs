@@ -35,7 +35,10 @@ public class Mario : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(isGrounded()){
+
+        bool isGrounded = IsGrounded();
+
+        if(isGrounded){
         
             animator.SetBool("Jumping", false);
             Debug.Log("Suelo");
@@ -44,53 +47,57 @@ public class Mario : MonoBehaviour
         }
         //actualSpeed = speed;
 
-        //Comprobamos que Mariont no esté parado, la tecla pulsada y evitamos que se mueva al lado 
-        //contrario si no se ha parado antes de cambiar de sentido
-        if(!stopping && Input.GetKey(KeyCode.LeftArrow) && actualSpeed<=0){
-            //transform.Translate(Vector3.left * actualSpeed * Time.deltaTime, Space.Self);
-            //Si Mariont se mueve a la izquierda, asignamos a actualSpeed la velocidad negativa
-            actualSpeed = -speed;
-            animator.SetBool("Walking", true);
-            transform.localScale = new Vector3(1,1,1);
+        /*Comprobamos que Mariont no esté parado, la tecla pulsada y evitamos que se mueva al lado 
+        contrario si no se ha parado antes de cambiar de sentido.Los camios de velocidad sólo se
+        permiten si Mariont está en el suelo*/
+        if(isGrounded){
+            if(!stopping && Input.GetKey(KeyCode.LeftArrow) && actualSpeed<=0){
+                //transform.Translate(Vector3.left * actualSpeed * Time.deltaTime, Space.Self);
+                //Si Mariont se mueve a la izquierda, asignamos a actualSpeed la velocidad negativa
+                actualSpeed = -speed;
+                animator.SetBool("Walking", true);
+                transform.localScale = new Vector3(1,1,1);
 
-        }else if(!stopping && Input.GetKey(KeyCode.RightArrow) && actualSpeed >=0){
-            //transform.Translate(Vector3.right * actualSpeed * Time.deltaTime, Space.Self);
-            //Asignamos a actualSpeed la velocidad positiva
-            actualSpeed = speed;
-            animator.SetBool("Walking", true);
-            transform.localScale = new Vector3(-1,1,1);
+            }else if(!stopping && Input.GetKey(KeyCode.RightArrow) && actualSpeed >=0){
+                //transform.Translate(Vector3.right * actualSpeed * Time.deltaTime, Space.Self);
+                //Asignamos a actualSpeed la velocidad positiva
+                actualSpeed = speed;
+                animator.SetBool("Walking", true);
+                transform.localScale = new Vector3(-1,1,1);
 
-        }else if(actualSpeed!=0){
+            }else if(actualSpeed!=0){
 
-            stopping = true;
-            animator.SetBool("Stopping", true);
-            animator.SetBool("Walking", false);
+                stopping = true;
+                animator.SetBool("Stopping", true);
+                animator.SetBool("Walking", false);
 
-            if(actualSpeed>0){
+                if(actualSpeed>0){
 
-                actualSpeed -= deceleration*Time.deltaTime;
+                    actualSpeed -= deceleration*Time.deltaTime;
 
-            }else if(actualSpeed<0){
+                }else if(actualSpeed<0){
 
-                actualSpeed += deceleration*Time.deltaTime;
-            }
-            Debug.Log(actualSpeed);
-            if(Mathf.Abs(actualSpeed)<0.01f){
-                stopping = false;
-                animator.SetBool("Stopping", false);
-                actualSpeed = 0;
-                //animator.SetBool("Stopping", false);
+                    actualSpeed += deceleration*Time.deltaTime;
+                }
+                Debug.Log(actualSpeed);
+                if(Mathf.Abs(actualSpeed)<0.01f){
+                    
+                    stopping = false;
+                    animator.SetBool("Stopping", false);
+                    actualSpeed = 0;
+                    //animator.SetBool("Stopping", false);
+                }
             }
         }
 
         transform.Translate(Vector3.right * actualSpeed * Time.deltaTime, Space.Self);
         
-        if (Input.GetKeyDown(KeyCode.UpArrow) /*&& (!stopping && (actualSpeed<=0||actualSpeed>=0))*/){
+        if (Input.GetKeyDown(KeyCode.UpArrow) && isGrounded/*&& (!stopping && (actualSpeed<=0||actualSpeed>=0))*/){
 
             rb.AddForce(Vector2.up*jump, ForceMode2D.Impulse);
             animator.SetBool("Jumping", true);
             starJump = true;
-            Invoke("endJump",0.05f);
+            Invoke("EndJump",0.05f);
 
             Debug.Log("Salta");
         }/*else if(isGrounded()){
@@ -98,11 +105,11 @@ public class Mario : MonoBehaviour
         }*/
     }
 
-    private void endJump(){
+    private void EndJump(){
         starJump=false;
     }
 
-    private bool isGrounded(){
+    private bool IsGrounded(){
         if(starJump){
             return false;
         }
@@ -126,7 +133,7 @@ public class Mario : MonoBehaviour
                 Vector3 contactoLocal = transform.InverseTransformPoint(new Vector3(puntosContacto[0].point.x, puntosContacto[0].point.y, 0));
                 if(numeroPuntos == 1){
                     //Se comprueba que Mariont toque plataformas con el centro de la parte inferior
-                    if(contactoLocal.y<-0.5f && Mathf.Abs(contactoLocal.x) < 0.02f){
+                    if(contactoLocal.y < -0.5f && rb.velocity.y <= 0){
                         grounded=true;
                     }
 
