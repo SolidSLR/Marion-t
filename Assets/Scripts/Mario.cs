@@ -41,9 +41,6 @@ public class Mario : MonoBehaviour
         if(isGrounded){
         
             animator.SetBool("Jumping", false);
-            Debug.Log("Suelo");
-        }else if(animator.GetBool("Jumping")){
-            Debug.Log("En aire");
         }
         //actualSpeed = speed;
 
@@ -98,8 +95,6 @@ public class Mario : MonoBehaviour
             animator.SetBool("Jumping", true);
             starJump = true;
             Invoke("EndJump",0.05f);
-
-            Debug.Log("Salta");
         }/*else if(isGrounded()){
             animator.SetBool("Jumping", false);
         }*/
@@ -137,10 +132,10 @@ public class Mario : MonoBehaviour
                         grounded=true;
                     }
 
-                    Debug.Log("Detección de punto de contacto: "+contactoLocal.y);
+                    //Debug.Log("Detección de punto de contacto: "+contactoLocal.y);
 
             }else if(numeroPuntos > 1){
-                Debug.Log("Detección de puntos de contacto totales: "+contactoLocal);
+                //Debug.Log("Detección de puntos de contacto totales: "+contactoLocal);
             }
             //grounded=true;
         }
