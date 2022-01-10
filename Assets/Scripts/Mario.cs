@@ -15,7 +15,7 @@ public class Mario : MonoBehaviour
     //Controlador del Rigidbody
     private Rigidbody2D rb;
     //Controlador de colisiones
-    private Collider2D collider;
+    private Collider2D colision;
     //Controlador de la velocidad del salto
     private float jump = 6.5f;
     //Variable para impedir que se acelere hacia ningún lado mientras estás frenando
@@ -28,7 +28,7 @@ public class Mario : MonoBehaviour
     {
         animator = GetComponent<Animator>();
         rb = GetComponent<Rigidbody2D>();
-        collider = GetComponent<Collider2D>();
+        colision = GetComponent<Collider2D>();
         //starJump = false;
     }
 
@@ -123,8 +123,8 @@ public class Mario : MonoBehaviour
             /*Si hay contacto, miramos que el punto sea el inferior y no uno de los otros. 
             Sólo se cancela la animación si el contacto es con la parte inferior. A mayores, 
             pasamos la máscara Plataformas como parámetro para corregir un bug*/
-            if(collider.IsTouchingLayers(mask)){
-                int numeroPuntos = collider.GetContacts(filtro, puntosContacto);
+            if(colision.IsTouchingLayers(mask)){
+                int numeroPuntos = colision.GetContacts(filtro, puntosContacto);
                 Vector3 contactoLocal = transform.InverseTransformPoint(new Vector3(puntosContacto[0].point.x, puntosContacto[0].point.y, 0));
                 if(numeroPuntos == 1){
                     //Se comprueba que Mariont toque plataformas con el centro de la parte inferior

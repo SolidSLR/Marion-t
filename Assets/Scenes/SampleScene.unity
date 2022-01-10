@@ -519,6 +519,10 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 7168290949505985270, guid: f9c8180873770124bbafaa8db7a0b9a6, type: 3}
+      propertyPath: m_TagString
+      value: Tortuga
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f9c8180873770124bbafaa8db7a0b9a6, type: 3}
 --- !u!4 &223436031 stripped

@@ -7,7 +7,9 @@ public class Turtle : MonoBehaviour
     //Declaramos variable para la velocidad de la tortura
     float speed=-2f;
 
-    Collider2D collider;
+    float oldSpeed;
+
+    Collider2D colision;
 
     private Vector3 leftSpawnPoint = new Vector3(-10f, 3.5f, 0f);
 
@@ -20,6 +22,8 @@ public class Turtle : MonoBehaviour
     public Vector3 RightSpawnPoint{
         get { return rightSpawnPoint;}
     }
+
+    public Animator animador;
     // Start is called before the first frame update
     void Start()
     {
@@ -31,7 +35,11 @@ public class Turtle : MonoBehaviour
            speed = Mathf.Abs(speed)*-1;
            transform.localScale = new Vector3(1,1,1);
        }
-       collider = GetComponent<Collider2D>();
+       colision = GetComponent<Collider2D>();
+
+       animador=GetComponent<Animator>();
+
+       animador.SetBool("Turning", false);
 
     }
 
@@ -63,6 +71,36 @@ public class Turtle : MonoBehaviour
 
     public void OnCollisionEnter2D(Collision2D colision){
         
+        if(colision.gameObject.tag=="Tortuga"){
+        
+            Girar();
+        
+        }   
+    
+    }
+
+    private void Girar(){
+        
+        Debug.Log("He girao");
+        
+        animador.SetBool("Turning", true);
+
+        oldSpeed = speed;
+
+        speed=0;
+
+    }
+
+    public void ReWalk(){
+
+        animador.SetBool("Turning", false);
+
+        speed = -oldSpeed;
+
+        transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
+
+        Debug.Log("Volviendo a caminar");
+
     }
 
 }
