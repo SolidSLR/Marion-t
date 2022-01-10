@@ -60,4 +60,9 @@ public class Turtle : MonoBehaviour
         }
     
     }
+
+    public void OnCollisionEnter2D(Collision2D colision){
+        
+    }
+
 }
