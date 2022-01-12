@@ -1,0 +1,1164 @@
+fileFormatVersion: 2
+guid: 76798fb91697adb499c1d5f40f3d50a2
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5307382966827282268
+    second: tortugas_verdes_0
+  - first:
+      213: 2097557408383739557
+    second: tortugas_verdes_1
+  - first:
+      213: -8823213764378870488
+    second: tortugas_verdes_2
+  - first:
+      213: 2022677237031047183
+    second: tortugas_verdes_3
+  - first:
+      213: 2879634228666458458
+    second: tortugas_verdes_4
+  - first:
+      213: -4583837532148240101
+    second: tortugas_verdes_5
+  - first:
+      213: 731531824185772756
+    second: tortugas_verdes_6
+  - first:
+      213: -7118698478738569020
+    second: tortugas_verdes_7
+  - first:
+      213: 5039184847878597537
+    second: tortugas_verdes_8
+  - first:
+      213: 5134527768050445772
+    second: tortugas_verdes_9
+  - first:
+      213: -4727872605067163744
+    second: tortugas_verdes_10
+  - first:
+      213: 883886915904511533
+    second: tortugas_verdes_11
+  - first:
+      213: 1336679913194696997
+    second: tortugas_verdes_12
+  - first:
+      213: 6197006704326484069
+    second: tortugas_verdes_13
+  - first:
+      213: 1869805754046046343
+    second: tortugas_verdes_14
+  - first:
+      213: 645150906194750632
+    second: tortugas_verdes_15
+  - first:
+      213: 1859663219233060112
+    second: tortugas_verdes_16
+  - first:
+      213: 4273922080320892739
+    second: tortugas_verdes_17
+  - first:
+      213: -195563116246629303
+    second: tortugas_verdes_18
+  - first:
+      213: -8536663832836011174
+    second: tortugas_verdes_19
+  - first:
+      213: -4013950460351352564
+    second: tortugas_verdes_20
+  - first:
+      213: -5983413205725204592
+    second: tortugas_verdes_21
+  - first:
+      213: 4598809494347237573
+    second: tortugas_verdes_22
+  - first:
+      213: -3723956217846823339
+    second: tortugas_verdes_23
+  - first:
+      213: 5376722386024221137
+    second: tortugas_verdes_24
+  - first:
+      213: 6787144619373500757
+    second: tortugas_verdes_25
+  - first:
+      213: 192730847581899347
+    second: tortugas_verdes_26
+  - first:
+      213: -1226004078134325554
+    second: tortugas_verdes_27
+  - first:
+      213: -8317653201749814297
+    second: tortugas_verdes_28
+  - first:
+      213: -5594943107319759965
+    second: tortugas_verdes_29
+  - first:
+      213: -5086503743391389830
+    second: tortugas_verdes_30
+  - first:
+      213: -8233759821767257772
+    second: tortugas_verdes_31
+  - first:
+      213: 7439661785054143990
+    second: tortugas_verdes_32
+  - first:
+      213: -1325296633316021775
+    second: tortugas_verdes_33
+  - first:
+      213: -6592487720420219346
+    second: tortugas_verdes_34
+  - first:
+      213: 480816129518182773
+    second: tortugas_verdes_35
+  - first:
+      213: -5575084871360698466
+    second: tortugas_verdes_36
+  - first:
+      213: -5334475243377346613
+    second: tortugas_verdes_37
+  - first:
+      213: -1308181871417066381
+    second: tortugas_verdes_38
+  - first:
+      213: -697478202403481192
+    second: tortugas_verdes_39
+  - first:
+      213: -4434808814922603602
+    second: tortugas_verdes_40
+  - first:
+      213: -8190537397510839711
+    second: tortugas_verdes_41
+  - first:
+      213: 3767791689709054830
+    second: tortugas_verdes_42
+  - first:
+      213: -4443398763910085751
+    second: tortugas_verdes_43
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 0
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: tortugas_verdes_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 363
+        width: 66
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a01d47bf436856b0800000000000000
+      internalID: -5307382966827282268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tortugas_verdes_1
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 364
+        width: 66
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a6a3be79550c1d10800000000000000
+      internalID: 2097557408383739557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tortugas_verdes_2
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 363
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82d3cd424d5ad8580800000000000000
+      internalID: -8823213764378870488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tortugas_verdes_3
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 363
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f0011800b3ef11c10800000000000000
+      internalID: 2022677237031047183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tortugas_verdes_4
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 363
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5168b2f21486f720800000000000000
+      internalID: 2879634228666458458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tortugas_verdes_5
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 363
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b11733cfc00f260c0800000000000000
+      internalID: -4583837532148240101
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tortugas_verdes_6
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 363
+        width: 63
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4da8c7a715ce62a00800000000000000
+      internalID: 731531824185772756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tortugas_verdes_7
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 362
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c88ca7337d453d90800000000000000
+      internalID: -7118698478738569020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tortugas_verdes_8
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 364
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1aba55f9be7cee540800000000000000
+      internalID: 5039184847878597537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tortugas_verdes_9
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 293
+        width: 65
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccda6081dc1814740800000000000000
+      internalID: 5134527768050445772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tortugas_verdes_10
+      rect:
+        serializedVersion: 2
+        x: 437
+        y: 291
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0a7cbaf3ae8336eb0800000000000000
+      internalID: -4727872605067163744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tortugas_verdes_11
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 290
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e9a1c8772344c00800000000000000
+      internalID: 883886915904511533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tortugas_verdes_12
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 291
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 521be5c8c47dc8210800000000000000
+      internalID: 1336679913194696997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tortugas_verdes_13
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 292
+        width: 66
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5602812b3c0300650800000000000000
+      internalID: 6197006704326484069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tortugas_verdes_14
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 217
+        width: 66
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78065e83d62e2f910800000000000000
+      internalID: 1869805754046046343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tortugas_verdes_15
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 219
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ac624eb45904f800800000000000000
+      internalID: 645150906194750632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tortugas_verdes_16
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 221
+        width: 64
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 015fe3058d9dec910800000000000000
+      internalID: 1859663219233060112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tortugas_verdes_17
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 291
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 34fa933ec75005b30800000000000000
+      internalID: 4273922080320892739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tortugas_verdes_18
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 219
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94483f4c168394df0800000000000000
+      internalID: -195563116246629303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tortugas_verdes_19
+      rect:
+        serializedVersion: 2
+        x: 148
+        y: 147
+        width: 65
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5b82e4297da78980800000000000000
+      internalID: -8536663832836011174
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tortugas_verdes_20
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 148
+        width: 66
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c01fdb8b2559b48c0800000000000000
+      internalID: -4013950460351352564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tortugas_verdes_21
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 75
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09f2e501465a6fca0800000000000000
+      internalID: -5983413205725204592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tortugas_verdes_22
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 75
+        width: 65
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c8c24c9ed042df30800000000000000
+      internalID: 4598809494347237573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tortugas_verdes_23
+      rect:
+        serializedVersion: 2
+        x: 293
+        y: 76
+        width: 63
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 556022cdc89d15cc0800000000000000
+      internalID: -3723956217846823339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tortugas_verdes_24
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 75
+        width: 66
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d94dd2e584fd9a40800000000000000
+      internalID: 5376722386024221137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tortugas_verdes_25
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 75
+        width: 67
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55916fc4218c03e50800000000000000
+      internalID: 6787144619373500757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tortugas_verdes_26
+      rect:
+        serializedVersion: 2
+        x: 508
+        y: 76
+        width: 66
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a016b4fa7bca200800000000000000
+      internalID: 192730847581899347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tortugas_verdes_27
+      rect:
+        serializedVersion: 2
+        x: 580
+        y: 76
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ece8f9d59cb5cfee0800000000000000
+      internalID: -1226004078134325554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tortugas_verdes_28
+      rect:
+        serializedVersion: 2
+        x: 651
+        y: 76
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e3dfc85b72c19c80800000000000000
+      internalID: -8317653201749814297
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tortugas_verdes_29
+      rect:
+        serializedVersion: 2
+        x: 436
+        y: 3
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ab7fad13e4ca52b0800000000000000
+      internalID: -5594943107319759965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tortugas_verdes_30
+      rect:
+        serializedVersion: 2
+        x: 364
+        y: 4
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a77267a7bcb1969b0800000000000000
+      internalID: -5086503743391389830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tortugas_verdes_31
+      rect:
+        serializedVersion: 2
+        x: 292
+        y: 4
+        width: 64
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 451dda1011fcbbd80800000000000000
+      internalID: -8233759821767257772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tortugas_verdes_32
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 2
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f5633bf9fcfe3760800000000000000
+      internalID: 7439661785054143990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tortugas_verdes_33
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 4
+        width: 66
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f96d25dbb99b9de0800000000000000
+      internalID: -1325296633316021775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tortugas_verdes_34
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 292
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e266a36c857c284a0800000000000000
+      internalID: -6592487720420219346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tortugas_verdes_35
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 292
+        width: 67
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 571a53ae8b33ca600800000000000000
+      internalID: 480816129518182773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tortugas_verdes_36
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 219
+        width: 67
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9724e9f8d151a2b0800000000000000
+      internalID: -5575084871360698466
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tortugas_verdes_37
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 220
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc7b067870328f5b0800000000000000
+      internalID: -5334475243377346613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tortugas_verdes_38
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 147
+        width: 65
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37c749cd48768dde0800000000000000
+      internalID: -1308181871417066381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tortugas_verdes_39
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 147
+        width: 68
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8999923354f0256f0800000000000000
+      internalID: -697478202403481192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tortugas_verdes_40
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 74
+        width: 66
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ea364c321e46472c0800000000000000
+      internalID: -4434808814922603602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tortugas_verdes_41
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 75
+        width: 64
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16260ddd1ad555e80800000000000000
+      internalID: -8190537397510839711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tortugas_verdes_42
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 3
+        width: 66
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6be6c44492e94430800000000000000
+      internalID: 3767791689709054830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: tortugas_verdes_43
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 4
+        width: 64
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 983cab9cd50e552c0800000000000000
+      internalID: -4443398763910085751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

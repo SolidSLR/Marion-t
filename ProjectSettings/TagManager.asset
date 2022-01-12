@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Ascensor
   - Tortuga
+  - Hitter
   layers:
   - Default
   - TransparentFX
@@ -16,7 +17,7 @@ TagManager:
   - Plataformas
   - Paredes
   - Enemies
-  - 
+  - Hitter
   - 
   - 
   - 

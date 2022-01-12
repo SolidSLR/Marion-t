@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Mario : MonoBehaviour
+public class Mario : Personaje
 {
     //Velocidad de movimiento absoluta de Mariont
     private float speed = 3f;
@@ -13,23 +13,25 @@ public class Mario : MonoBehaviour
     //Controlador del animador
     Animator animator;
     //Controlador del Rigidbody
-    private Rigidbody2D rb;
+    //private Rigidbody2D rb;
     //Controlador de colisiones
-    private Collider2D colision;
+    //private Collider2D colision;
     //Controlador de la velocidad del salto
     private float jump = 6.5f;
     //Variable para impedir que se acelere hacia ningún lado mientras estás frenando
     private bool stopping = false;
     //Variable para controlar el inicio del salto y no controlar si toca suelo
-    private bool starJump;
+    //private bool starJump;
     
     // Start is called before the first frame update
     void Start()
     {
+
+        base.Start();
         animator = GetComponent<Animator>();
-        rb = GetComponent<Rigidbody2D>();
-        colision = GetComponent<Collider2D>();
-        //starJump = false;
+        //rb = GetComponent<Rigidbody2D>();
+        //colision = GetComponent<Collider2D>();
+        starJump = false;
     }
 
     // Update is called once per frame
@@ -76,7 +78,7 @@ public class Mario : MonoBehaviour
 
                     actualSpeed += deceleration*Time.deltaTime;
                 }
-                Debug.Log(actualSpeed);
+                //Debug.Log(actualSpeed);
                 if(Mathf.Abs(actualSpeed)<0.01f){
                     
                     stopping = false;
@@ -100,11 +102,11 @@ public class Mario : MonoBehaviour
         }*/
     }
 
-    private void EndJump(){
+    /*private void EndJump(){
         starJump=false;
-    }
+    }*/
 
-    private bool IsGrounded(){
+    /*private bool IsGrounded(){
         if(starJump){
             return false;
         }
@@ -123,7 +125,7 @@ public class Mario : MonoBehaviour
             /*Si hay contacto, miramos que el punto sea el inferior y no uno de los otros. 
             Sólo se cancela la animación si el contacto es con la parte inferior. A mayores, 
             pasamos la máscara Plataformas como parámetro para corregir un bug*/
-            if(colision.IsTouchingLayers(mask)){
+            /*if(colision.IsTouchingLayers(mask)){
                 int numeroPuntos = colision.GetContacts(filtro, puntosContacto);
                 Vector3 contactoLocal = transform.InverseTransformPoint(new Vector3(puntosContacto[0].point.x, puntosContacto[0].point.y, 0));
                 if(numeroPuntos == 1){
@@ -141,5 +143,9 @@ public class Mario : MonoBehaviour
         }
 
         return grounded;
+    }*/
+
+    override public float getContactPoint(){
+        return 0.5f;
     }
 }

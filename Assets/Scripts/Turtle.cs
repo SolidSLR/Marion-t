@@ -2,15 +2,15 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Turtle : MonoBehaviour
+public class Turtle : Personaje
 {
     //Declaramos variable para la velocidad de la tortura
     float speed=-2f;
 
     float oldSpeed;
 
-    Collider2D colision;
-
+    //Collider2D colision;
+    private float jump = 2.0f;
     private Vector3 leftSpawnPoint = new Vector3(-10f, 3.5f, 0f);
 
     private Vector3 rightSpawnPoint = new Vector3(10f, 3.5f, 0f);
@@ -40,13 +40,20 @@ public class Turtle : MonoBehaviour
        animador=GetComponent<Animator>();
 
        animador.SetBool("Turning", false);
-
+       
+       base.Start();
     }
 
     // Update is called once per frame
     void Update()
     {
         //bool grounded=false;
+        if(animador.GetBool("Tumbando")){
+            if(IsGrounded()){
+                Debug.Log("Tortuga toca suelo");
+                speed = 0f;
+            }
+        }
         transform.position = new Vector3(transform.position.x + speed*Time.deltaTime, transform.position.y, transform.position.z);
         
 
@@ -61,7 +68,16 @@ public class Turtle : MonoBehaviour
             }else{
                 transform.position=rightSpawnPoint;
             }
-        }else {
+        }else if(otroCollider.tag == "Hitter"){
+
+            Debug.Log("Au, mi dulce cú");
+            rb.AddForce(Vector2.up*jump, ForceMode2D.Impulse);
+            animador.SetBool("Tumbando", true);
+            animador.SetBool("Turning", false);
+            starJump = true;
+            Invoke("EndJump",0.05f);
+
+        } else {
 
             transform.position = new Vector3(-transform.position.x + speed*Time.deltaTime, transform.position.y, transform.position.z);
 
@@ -81,7 +97,7 @@ public class Turtle : MonoBehaviour
 
     private void Girar(){
         
-        Debug.Log("He girao");
+        //Debug.Log("He girao");
         
         animador.SetBool("Turning", true);
 
@@ -99,8 +115,12 @@ public class Turtle : MonoBehaviour
 
         transform.localScale = new Vector3(-transform.localScale.x, transform.localScale.y, transform.localScale.z);
 
-        Debug.Log("Volviendo a caminar");
+        //Debug.Log("Volviendo a caminar");
 
+    }
+
+    override public float getContactPoint(){
+        return 0.0f;
     }
 
 }
