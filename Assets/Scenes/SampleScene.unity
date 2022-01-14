@@ -226,8 +226,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4856178}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.5811863, y: 2.0383, z: 10.431469}
-  m_LocalScale: {x: 10.337682, y: 0.33522934, z: 1}
+  m_LocalPosition: {x: -6.8489, y: 2.0383, z: 10.431469}
+  m_LocalScale: {x: 10.873174, y: 0.33522934, z: 1}
   m_Children: []
   m_Father: {fileID: 14223982}
   m_RootOrder: 7
@@ -342,7 +342,7 @@ Transform:
   m_GameObject: {fileID: 26745153}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 10.69, y: -1.87, z: 1}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 843000708}
   m_RootOrder: 0
@@ -769,8 +769,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 261352904}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -8.4081, y: -0.2162, z: 10.431469}
-  m_LocalScale: {x: 6.319041, y: 0.31217095, z: 1}
+  m_LocalPosition: {x: -8.6892, y: -0.2162, z: 10.431469}
+  m_LocalScale: {x: 6.8814354, y: 0.31217095, z: 1}
   m_Children: []
   m_Father: {fileID: 14223982}
   m_RootOrder: 4
@@ -806,7 +806,7 @@ Transform:
   m_GameObject: {fileID: 511490898}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 10.72, y: -0.22, z: 1}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 843000708}
   m_RootOrder: 1
@@ -1150,8 +1150,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 642584966}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -6.8181863, y: -1.8104, z: 10.431469}
-  m_LocalScale: {x: 8.86436, y: 0.33245727, z: 1}
+  m_LocalPosition: {x: -7.126, y: -1.8104, z: 10.431469}
+  m_LocalScale: {x: 9.4804325, y: 0.33245727, z: 1}
   m_Children: []
   m_Father: {fileID: 14223982}
   m_RootOrder: 1
@@ -1172,7 +1172,7 @@ GameObject:
   - component: {fileID: 697472631}
   m_Layer: 0
   m_Name: Mariont
-  m_TagString: Untagged
+  m_TagString: Mariont
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1548,7 +1548,7 @@ Transform:
   m_GameObject: {fileID: 745625359}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 10.5, y: -3.74, z: 1}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
   m_Children: []
   m_Father: {fileID: 843000708}
   m_RootOrder: 2
@@ -1720,8 +1720,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1388702835}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.2738137, y: -1.8145, z: 10.431469}
-  m_LocalScale: {x: 8.857274, y: 0.33886945, z: 1}
+  m_LocalPosition: {x: 5.6352, y: -1.8145, z: 10.431469}
+  m_LocalScale: {x: 9.580028, y: 0.33886945, z: 1}
   m_Children: []
   m_Father: {fileID: 14223982}
   m_RootOrder: 2
@@ -2104,8 +2104,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1474006890}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 6.88, y: -0.2162, z: 10.431469}
-  m_LocalScale: {x: 6.3309593, y: 0.31217095, z: 1}
+  m_LocalPosition: {x: 7.1209, y: -0.2162, z: 10.431469}
+  m_LocalScale: {x: 6.812745, y: 0.31217095, z: 1}
   m_Children: []
   m_Father: {fileID: 14223982}
   m_RootOrder: 3
@@ -2270,8 +2270,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1612061837}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 5.0665135, y: 2.0238, z: 10.431469}
-  m_LocalScale: {x: 10.337682, y: 0.31217095, z: 1}
+  m_LocalPosition: {x: 5.361, y: 2.0238, z: 10.431469}
+  m_LocalScale: {x: 10.92693, y: 0.31217095, z: 1}
   m_Children: []
   m_Father: {fileID: 14223982}
   m_RootOrder: 6

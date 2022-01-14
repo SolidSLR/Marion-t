@@ -44,7 +44,7 @@ public abstract class Personaje : MonoBehaviour
 
             filtro.SetLayerMask(mask);
             //Buscamos los puntos de contacto de Mariont chocando con otro collider
-            ContactPoint2D[] puntosContacto = new ContactPoint2D[5];
+            ContactPoint2D[] puntosContacto = new ContactPoint2D[1];
 
 
             /*Si hay contacto, miramos que el punto sea el inferior y no uno de los otros. 
@@ -53,7 +53,7 @@ public abstract class Personaje : MonoBehaviour
             if(colision.IsTouchingLayers(mask)){
                 int numeroPuntos = colision.GetContacts(filtro, puntosContacto);
                 Vector3 contactoLocal = transform.InverseTransformPoint(new Vector3(puntosContacto[0].point.x, puntosContacto[0].point.y, 0));
-                if(numeroPuntos == 1){
+                if(numeroPuntos >= 1){
                     //Se comprueba que Mariont toque plataformas con el centro de la parte inferior
                     if(contactoLocal.y < getContactPoint() && rb.velocity.y <= 0){
                         grounded=true;
@@ -61,13 +61,21 @@ public abstract class Personaje : MonoBehaviour
 
                     //Debug.Log("Detección de punto de contacto: "+contactoLocal.y);
 
-            }else if(numeroPuntos > 1){
-                //Debug.Log("Detección de puntos de contacto totales: "+contactoLocal);
             }
-            //grounded=true;
         }
 
         return grounded;
     }
+
+    /*
+    Esto funciona como clase heredada. Sin embargo, esta clase tiene poco código. Revisar como poder usar
+    este método tanto con Mariont como con las tortugas.
+    public void Death(float jump){
+
+        rb.AddForce(Vector2.up*jump, ForceMode2D.Impulse);
+        
+        this.colision.enabled=false;
+
+    }*/
 
 }

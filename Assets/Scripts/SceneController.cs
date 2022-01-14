@@ -14,16 +14,12 @@ public class SceneController : MonoBehaviour
             Debug.Log("SceneController: Ay caramba, no hay tortugas para tí (no se ha establecido el prefab)");
         }
 
-        //spawn(turtPrefab, turtPrefab.GetComponent<Turtle>().RightSpawnPoint);
         StartCoroutine("corutinaSpawn");
     }
 
     // Update is called once per frame
     void Update()
     {
-        /*Hay que probar esto en casa, a ver cuando peta
-        spawn(turtPrefab, turtPrefab.GetComponent<Turtle>().RightSpawnPoint);*/
-
         
     }
 
