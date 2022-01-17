@@ -17,6 +17,17 @@ public class Mario : Personaje
     private float jump = 6.5f;
     //Variable para impedir que se acelere hacia ningún lado mientras estás frenando
     private bool stopping = false;
+
+    //Referencias a los clips de audio de Mariont
+    [Tooltip ("Clip de audio que se reproduce cuando Mariont salta")]
+    public AudioClip audioJump;
+
+    [Tooltip ("Clip de audio que se reproduce cuando Mariont salta")]
+    public AudioClip audioDeath;
+
+    //Referencia a AudioSource para reproducir los sonidos
+
+    private AudioSource fuente;
     
     
     // Start is called before the first frame update
@@ -25,7 +36,8 @@ public class Mario : Personaje
 
         base.Start();
         animator = GetComponent<Animator>();
-        starJump = false;
+        //starJump = false;
+        fuente = GetComponent<AudioSource>();
     }
 
     // Update is called once per frame
@@ -86,24 +98,29 @@ public class Mario : Personaje
             rb.AddForce(Vector2.up*jump, ForceMode2D.Impulse);
             animator.SetBool("Jumping", true);
             starJump = true;
+            fuente.PlayOneShot(audioJump);
             Invoke("EndJump",0.05f);
         }
     }
 
-    override public float getContactPoint(){
+    override protected float getContactPoint(){
         return 0.5f;
     }
 
-    public void OnCollisionEnter(Collision colision) {
+    public void OnCollisionEnter2D(Collision2D colision) {
         if(colision.gameObject.tag=="Tortuga"){
             Turtle tortuga = colision.gameObject.GetComponent<Turtle>();
 
-            /*
-            Revisar esto
+            
             if(!tortuga.IsDanger()){
+                jump=3.5f;
                 actualSpeed = 0;
-                colision.enabled=false;
-            }*/
+                this.colision.enabled=false;
+                rb.AddForce(Vector2.up*jump, ForceMode2D.Impulse);
+                Destroy(this.gameObject, 4.0f);
+                fuente.PlayOneShot(audioDeath);
+                //Falta código, comprobar a posteriori
+            }
         }
     }
 }

@@ -5,12 +5,12 @@ using UnityEngine;
 public abstract class Personaje : MonoBehaviour
 {
     
-    public abstract float getContactPoint();
-    public bool starJump;
+    protected abstract float getContactPoint();
+    protected bool starJump;
 
-    public Collider2D colision;
+    protected Collider2D colision;
 
-    public Rigidbody2D rb;
+    protected Rigidbody2D rb;
 
     // Start is called before the first frame update
     public void Start()

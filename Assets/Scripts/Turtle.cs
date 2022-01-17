@@ -23,6 +23,11 @@ public class Turtle : Personaje
     }
 
     public Animator animador;
+
+    //Layers de enemigos y hitter
+    //int layerEnemy;
+
+    //int layerHitter;
     // Start is called before the first frame update
     void Start()
     {
@@ -39,6 +44,10 @@ public class Turtle : Personaje
        animador=GetComponent<Animator>();
 
        animador.SetBool("Turning", false);
+
+       //layerEnemy = LayerMask.NameToLayer("Enemies");
+
+       //layerHitter = LayerMask.NameToLayer("Hitter");
        
        base.Start();
     }
@@ -53,7 +62,11 @@ public class Turtle : Personaje
         }
         transform.position = new Vector3(transform.position.x + speed*Time.deltaTime, transform.position.y, transform.position.z);
         
-
+        /*if(IsGrounded()){
+            Physics2D.IgnoreLayerCollision(layerEnemy, layerHitter, false);
+        }else if(!IsGrounded()){
+            Physics2D.IgnoreLayerCollision(layerEnemy, layerHitter, true);
+        }*/
     }
     public void OnTriggerEnter2D(Collider2D otroCollider){
 
@@ -69,7 +82,7 @@ public class Turtle : Personaje
             Girar();
             ReWalk();
 
-        }else if(otroCollider.tag == "Hitter" && animador.GetBool("Tumbando") == false){
+        }else if(otroCollider.tag == "Hitter" && animador.GetBool("Tumbando") == false /*&& IsGrounded()*/){
 
             rb.AddForce(Vector2.up*jump, ForceMode2D.Impulse);
             animador.SetBool("Tumbando", true);
@@ -81,7 +94,7 @@ public class Turtle : Personaje
 
             Debug.Log("Ay, me levanto");
 
-        }else {
+        }else if(otroCollider.tag == "TP"){
 
             transform.position = new Vector3(-transform.position.x + speed*Time.deltaTime, transform.position.y, transform.position.z);
 
@@ -131,7 +144,7 @@ public class Turtle : Personaje
 
     }
 
-    override public float getContactPoint(){
+    override protected float getContactPoint(){
         return 0.0f;
     }
 
@@ -146,7 +159,7 @@ public class Turtle : Personaje
     }
 
     public bool IsDanger(){
-        return animador.GetBool("Tumbado");
+        return animador.GetBool("Tumbando");
     }
 
 }
